@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/weng/ThreadPool/3_Thread_Pool/threadpool.cpp
+threadpool.h
+/home/weng/ThreadPool/3_Thread_Pool/threadpool.h
+functional
+-
+thread
+-
+iostream
+-
+chrono
+-
+
+/home/weng/ThreadPool/3_Thread_Pool/threadpool.h
+vector
+-
+queue
+-
+memory
+-
+atomic
+-
+mutex
+-
+condition_variable
+-
+functional
+-
+map
+-
+thread
+-
+
